@@ -37,3 +37,34 @@ ball.goto(5,5)
 ballxdirection=0.2
 ballydirection=0.2
   
+#Code for creating pen for scorecard update
+pen=t.Turtle()
+pen.speed(0)
+pen.color("Blue")
+pen.penup()
+pen.hideturtle()
+pen.goto(0,260)
+pen.write("score",align="center",font=('Arial',24,'normal'))
+  
+#code for moving the leftpaddle
+def leftpaddleup():
+    y=leftpaddle.ycor()
+    y=y+90
+    leftpaddle.sety(y)
+  
+def leftpaddledown():
+    y=leftpaddle.ycor()
+    y=y+90
+    leftpaddle.sety(y)
+  
+#code for moving the rightpaddle
+def rightpaddleup():
+    y=rightpaddle.ycor()
+    y=y+90
+    rightpaddle.sety(y)
+  
+def rightpaddledown():
+    y=rightpaddle.ycor()
+    y=y+90
+    rightpaddle.sety(y)
+  
