@@ -3,7 +3,7 @@ import random
 
 w = 500
 h = 500
-foot_size = 10
+food_size = 10
 delay = 100
 
 offsets = {
